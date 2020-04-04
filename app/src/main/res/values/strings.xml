@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AplicacionContactos</string>
+    <string name="titulo">Confirmar Datos</string>
+    <string name="hint_name">Nombre completo</string>
+    <string name="hint_tel">Teléfono</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_description">Descripción del contacto</string>
+    <string name="tagFechaNac">Fecha Nacimiento:</string>
+    <string name="lblFechaNac">Fecha Nacimiento</string>
+    <string name="tagTel">Tel:</string>
+    <string name="tagEmail">Email:</string>
+    <string name="tagDescripcion">Descripción:</string>
+    <string name="btnTextEdit">Editar Datos</string>
+    <string name="btnSiguiente">Siguiente</string>
+</resources>

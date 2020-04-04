@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/paddingActivity"
+    tools:context=".DetalleContacto">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:text="@string/titulo"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textSize="@dimen/titleSize"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/tagSize"
+        android:fontFamily="cursive"
+        android:layout_marginTop="@dimen/marginTop"
+        android:text="Nombre"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tagFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textSize="@dimen/tagSize"
+            android:text="@string/tagFechaNac"/>
+
+        <TextView
+            android:id="@+id/tvFecha"
+            android:layout_marginLeft="@dimen/textMarginLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:textSize="@dimen/tagSize"
+            android:text="@string/titulo"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tagTel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tagSize"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:text="@string/tagTel"/>
+
+        <TextView
+            android:id="@+id/tvTel"
+            android:layout_marginLeft="@dimen/textMarginLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tagSize"
+            android:fontFamily="cursive"
+            android:text="@string/titulo"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tagEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tagSize"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:text="@string/tagEmail"/>
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_marginLeft="@dimen/textMarginLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tagSize"
+            android:fontFamily="cursive"
+            android:text="@string/titulo"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tagDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tagSize"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:text="@string/tagDescripcion"/>
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_marginLeft="@dimen/textMarginLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tagSize"
+            android:fontFamily="cursive"
+            android:text="@string/titulo"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_marginTop="@dimen/marginTop"
+        android:paddingTop="@dimen/btnPadding"
+        android:paddingBottom="@dimen/btnPadding"
+        android:paddingLeft="@dimen/btnPaddingLR"
+        android:paddingRight="@dimen/btnPaddingLR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/tagSize"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/btnTextEdit"/>
+
+
+
+</LinearLayout>

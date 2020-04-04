@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleSize">35sp</dimen>
+    <dimen name="tagSize">20sp</dimen>
+    <dimen name="textInputSize">20sp</dimen>
+    <dimen name="paddingActivity">20dp</dimen>
+    <dimen name="marginTop">15dp</dimen>
+    <dimen name="marginBottom">15dp</dimen>
+    <dimen name="marginEdit">15dp</dimen>
+    <dimen name="textMarginLeft">15dp</dimen>
+    <dimen name="btnPadding">10dp</dimen>
+    <dimen name="btnPaddingLR">30dp</dimen>
+
+</resources>
